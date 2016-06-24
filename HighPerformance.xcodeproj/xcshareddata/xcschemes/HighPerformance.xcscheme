@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0730"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8B530C0119A1373700F97DE9"
+               BuildableName = "HighPerformance.app"
+               BlueprintName = "HighPerformance"
+               ReferencedContainer = "container:HighPerformance.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "export PATH=$PATH:/opt/local/bin&#10;export X_COV_FOLDER=/Users/vgaurav/Library/Developer/Xcode/DerivedData/HighPerformance-fdbbtenbmjbgkqdqxeisaunzkqjg/Build/Intermediates/HighPerformance.build/Debug-iphonesimulator/HighPerformance.build&#10;#echo ${CLANG_ANALYZER_OUTPUT_DIR} &gt; /tmp/hpts.txt&#10;#echo ${X_COV_FOLDER} &gt;&gt; /tmp/hpts.txt&#10;#echo ${PROJECT} &gt;&gt; /tmp/hpts.txt&#10;#echo $PATH &gt;&gt; /tmp/hpts.txt&#10;#which lcov &gt;&gt; /tmp/hpts.txt 2&gt;&amp;1&#10;#set &gt;&gt; /tmp/hpts.txt&#10;&#10;lcov --directory &quot;${X_COV_FOLDER}/Objects-normal/x86_64/&quot; --capture --output-file /tmp/${PROJECT}.info&#10;genhtml --output-directory /tmp/${PROJECT}-reports/ /tmp/${PROJECT}.info&#10;#open /tmp/${PROJECT}-reports/index.html&#10;"
+               shellToInvoke = "/bin/sh">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "8B530C2519A1373700F97DE9"
+                     BuildableName = "HighPerformanceTests.xctest"
+                     BlueprintName = "HighPerformanceTests"
+                     ReferencedContainer = "container:HighPerformance.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8B530C2519A1373700F97DE9"
+               BuildableName = "HighPerformanceTests.xctest"
+               BlueprintName = "HighPerformanceTests"
+               ReferencedContainer = "container:HighPerformance.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8B530C0119A1373700F97DE9"
+            BuildableName = "HighPerformance.app"
+            BlueprintName = "HighPerformance"
+            ReferencedContainer = "container:HighPerformance.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = ""
+            isEnabled = "NO">
+         </CommandLineArgument>
+      </CommandLineArguments>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8B530C0119A1373700F97DE9"
+            BuildableName = "HighPerformance.app"
+            BlueprintName = "HighPerformance"
+            ReferencedContainer = "container:HighPerformance.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8B530C0119A1373700F97DE9"
+            BuildableName = "HighPerformance.app"
+            BlueprintName = "HighPerformance"
+            ReferencedContainer = "container:HighPerformance.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection (= 2.4.1)
+    - AFNetworking/NSURLSession (= 2.4.1)
+    - AFNetworking/Reachability (= 2.4.1)
+    - AFNetworking/Security (= 2.4.1)
+    - AFNetworking/Serialization (= 2.4.1)
+    - AFNetworking/UIKit (= 2.4.1)
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - Expecta (0.2.4)
+  - OCMock (3.1.2)
+  - PonyDebugger (0.4.3):
+    - SocketRocket
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SocketRocket (0.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (= 2.4.1)
+  - CocoaLumberjack (= 2.0.1)
+  - Expecta (~> 0.2.4)
+  - OCMock (~> 3.1)
+  - PonyDebugger (= 0.4.3)
+  - ReactiveCocoa (= 2.5)
+
+SPEC CHECKSUMS:
+  AFNetworking: 41d45d2c14219af0fa5addf3cfd433a002c13c9f
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  Expecta: cfaf1d3e2e194ca704a25e997093d30a1ce70b61
+  OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
+  PonyDebugger: 52f96f501df018dc2b7153fa18464b82553e700c
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SocketRocket: 54a4ac2f354c4e8c51ef5dcd4a13bc556d4f2b7c
+
+PODFILE CHECKSUM: c64e226fedacdd915a0a6353b2eba239ce041f15
+
+COCOAPODS: 1.0.0

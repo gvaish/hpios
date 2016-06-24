@@ -1,0 +1,1854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1D1ABCEBDD075C54E137A9 /* libPods-HighPerformanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F4B56EE83F5214C9B89B64 /* libPods-HighPerformanceTests.a */; };
+		76B14BAB01940BA48645C3E8 /* libPods-HighPerformance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F2D05F85813FDE5778421D /* libPods-HighPerformance.a */; };
+		8B04BCA619A90D330092FE6E /* HPChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04BCA519A90D330092FE6E /* HPChapterViewController.m */; };
+		8B04BCA919A925D00092FE6E /* HPChapter01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04BCA819A925D00092FE6E /* HPChapter01ViewController.m */; };
+		8B04BCB319A9CF800092FE6E /* HPChapter03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04BCAE19A9CF800092FE6E /* HPChapter03ViewController.m */; };
+		8B04BCB419A9CF800092FE6E /* HPMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04BCB019A9CF800092FE6E /* HPMainTabBarViewController.m */; };
+		8B04BCB519A9CF800092FE6E /* HPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04BCB219A9CF800092FE6E /* HPSecondViewController.m */; };
+		8B04DBD31A8F2FED00DF7158 /* HPMeasurableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04DBD21A8F2FED00DF7158 /* HPMeasurableView.m */; };
+		8B04DC011A9007DC00DF7158 /* HPChapter08_ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04DBFF1A9007DC00DF7158 /* HPChapter08_ChildViewController.m */; };
+		8B04DC021A9007DC00DF7158 /* HPChapter08_ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B04DC001A9007DC00DF7158 /* HPChapter08_ChildViewController.xib */; };
+		8B04DC0A1A913A6C00DF7158 /* HPChapter08_02ViewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04DC091A913A6C00DF7158 /* HPChapter08_02ViewsTableViewController.m */; };
+		8B08C89A1ABF347A00DB4F02 /* DocumentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B08C8991ABF347A00DB4F02 /* DocumentPickerViewController.m */; };
+		8B08C89C1ABF347A00DB4F02 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B08C89B1ABF347A00DB4F02 /* MainInterface.storyboard */; };
+		8B08C8A81ABF347A00DB4F02 /* FileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B08C8A71ABF347A00DB4F02 /* FileProvider.m */; };
+		8B08C8AB1ABF347A00DB4F02 /* documentProviderFileProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B08C8A11ABF347A00DB4F02 /* documentProviderFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B08C8AE1ABF347A00DB4F02 /* documentProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B08C8931ABF347900DB4F02 /* documentProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B0B3BF61A8DD8B5001A5C36 /* HPCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0B3BF51A8DD8B5001A5C36 /* HPCustomLabel.m */; };
+		8B3345D219D78FAF00B2661C /* HPChapter04_LocationManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3345D119D78FAF00B2661C /* HPChapter04_LocationManagerViewController.m */; };
+		8B3345D519D7A84200B2661C /* HPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3345D419D7A84200B2661C /* HPLocationManager.m */; };
+		8B3345D819D7CE4F00B2661C /* HPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3345D719D7CE4F00B2661C /* HPUtils.m */; };
+		8B3345DB19D8C32300B2661C /* HPChapter04_ScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3345DA19D8C32300B2661C /* HPChapter04_ScreenViewController.m */; };
+		8B3345DF19D8D53800B2661C /* HPChapter04_Screen2ndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3345DD19D8D53800B2661C /* HPChapter04_Screen2ndViewController.m */; };
+		8B3345E019D8D53800B2661C /* HPChapter04_Screen2ndViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3345DE19D8D53800B2661C /* HPChapter04_Screen2ndViewController.xib */; };
+		8B39C05919A865B100BB8F27 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39C05819A865B100BB8F27 /* AdSupport.framework */; };
+		8B39C05F19A865DD00BB8F27 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39C05A19A865DD00BB8F27 /* AudioToolbox.framework */; };
+		8B39C06019A865DD00BB8F27 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39C05B19A865DD00BB8F27 /* AVFoundation.framework */; };
+		8B39C06119A865DD00BB8F27 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39C05C19A865DD00BB8F27 /* CoreTelephony.framework */; };
+		8B39C06219A865DD00BB8F27 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39C05D19A865DD00BB8F27 /* MessageUI.framework */; };
+		8B39C06C19A906E200BB8F27 /* bolt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B39C06A19A906E200BB8F27 /* bolt.png */; };
+		8B39C06D19A906E200BB8F27 /* bolt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B39C06B19A906E200BB8F27 /* bolt@2x.png */; };
+		8B3ACB9419A1C1DB008BE44E /* HPAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3ACB9119A1C1DB008BE44E /* HPAlbum.m */; };
+		8B3ACB9519A1C1DB008BE44E /* HPPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3ACB9319A1C1DB008BE44E /* HPPhoto.m */; };
+		8B3ACB9819A1C1E4008BE44E /* HPInstrumentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3ACB9719A1C1E4008BE44E /* HPInstrumentation.m */; };
+		8B3ACB9B19A1CFA7008BE44E /* HPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3ACB9A19A1CFA7008BE44E /* HPLogger.m */; };
+		8B43227519C55B0200813AD8 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B43227119C55B0200813AD8 /* libGoogleAdMobAds.a */; };
+		8B43227619C55B0200813AD8 /* libFlurry_5.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B43227419C55B0200813AD8 /* libFlurry_5.2.0.a */; };
+		8B43227B19C560E500813AD8 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B43227A19C560E500813AD8 /* Crashlytics.framework */; };
+		8B43227E19C6477000813AD8 /* HPChapter04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B43227D19C6477000813AD8 /* HPChapter04ViewController.m */; };
+		8B43228019C6601500813AD8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B43227F19C6601500813AD8 /* Settings.bundle */; };
+		8B44879A1BC639E5000E4338 /* HPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4487991BC639E5000E4338 /* HPConstants.m */; };
+		8B52FD5C1AD107A40088077D /* HPCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52FD5B1AD107A40088077D /* HPCacheTest.m */; };
+		8B530C0619A1373700F97DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B530C0519A1373700F97DE9 /* Foundation.framework */; };
+		8B530C0819A1373700F97DE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B530C0719A1373700F97DE9 /* CoreGraphics.framework */; };
+		8B530C0A19A1373700F97DE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B530C0919A1373700F97DE9 /* UIKit.framework */; };
+		8B530C1019A1373700F97DE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B530C0E19A1373700F97DE9 /* InfoPlist.strings */; };
+		8B530C1219A1373700F97DE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B530C1119A1373700F97DE9 /* main.m */; };
+		8B530C1619A1373700F97DE9 /* HPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B530C1519A1373700F97DE9 /* HPAppDelegate.m */; };
+		8B530C1919A1373700F97DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B530C1719A1373700F97DE9 /* Main.storyboard */; };
+		8B530C2119A1373700F97DE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B530C2019A1373700F97DE9 /* Images.xcassets */; };
+		8B530C2819A1373700F97DE9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B530C2719A1373700F97DE9 /* XCTest.framework */; };
+		8B530C2919A1373700F97DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B530C0519A1373700F97DE9 /* Foundation.framework */; };
+		8B530C2A19A1373700F97DE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B530C0919A1373700F97DE9 /* UIKit.framework */; };
+		8B530C3219A1373700F97DE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B530C3019A1373700F97DE9 /* InfoPlist.strings */; };
+		8B530C4219A1383300F97DE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B530C4119A1383300F97DE9 /* SystemConfiguration.framework */; };
+		8B5813061D14491F0046D3AD /* hi-perf-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5813031D14491F0046D3AD /* hi-perf-58.png */; };
+		8B5813071D1449200046D3AD /* hi-perf-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5813041D14491F0046D3AD /* hi-perf-80.png */; };
+		8B5813081D1449200046D3AD /* hi-perf-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5813051D14491F0046D3AD /* hi-perf-120.png */; };
+		8B5B25F91A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B25F81A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.m */; };
+		8B60D1E91A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B60D1E81A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.m */; };
+		8B6B942E1AD0E12000697DBD /* HPPhotoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6B942D1AD0E12000697DBD /* HPPhotoTest.m */; };
+		8B6D0A001B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D09FF1B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.m */; };
+		8B6D0A031B24146200CE0F4D /* HPChapter17Tools_04NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D0A021B24146200CE0F4D /* HPChapter17Tools_04NetworkViewController.m */; };
+		8B6D0A061B24B67200CE0F4D /* HPChapter17Tools_PonyDebuggerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D0A051B24B67200CE0F4D /* HPChapter17Tools_PonyDebuggerViewController.m */; };
+		8B6D88391AD0D28B00F9BD6B /* HPAlbumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D88381AD0D28B00F9BD6B /* HPAlbumTest.m */; };
+		8B70CE791AD2E59200FE8969 /* HPUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CE781AD2E59200FE8969 /* HPUserService.m */; };
+		8B70CE7C1AD2E5A900FE8969 /* HPSyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CE7B1AD2E5A900FE8969 /* HPSyncService.m */; };
+		8B70CE7F1AD2E61C00FE8969 /* HPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CE7E1AD2E61C00FE8969 /* HPUser.m */; };
+		8B70CE831AD2E97800FE8969 /* HPUserServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70CE821AD2E97800FE8969 /* HPUserServiceTest.m */; };
+		8B8F65F11AB7FB2A00C24621 /* HPChapter09_DataSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F65F01AB7FB2A00C24621 /* HPChapter09_DataSharingViewController.m */; };
+		8B9150251A9318C400EF48E3 /* HPMailCompositeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9150231A9318C400EF48E3 /* HPMailCompositeCell.m */; };
+		8B9150261A9318C400EF48E3 /* HPMailCompositeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9150241A9318C400EF48E3 /* HPMailCompositeCell.xib */; };
+		8B9150291A931E7300EF48E3 /* HPChapter08_02Views_10CustomViewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9150281A931E7300EF48E3 /* HPChapter08_02Views_10CustomViewsTableViewController.m */; };
+		8B91502C1A94571F00EF48E3 /* HPMailDirectDrawCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B91502B1A94571F00EF48E3 /* HPMailDirectDrawCell.m */; };
+		8B9AA14F1AB803160048231F /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AA14E1AB803160048231F /* sample.pdf */; };
+		8BBAA2971A4943DD00AE3EC7 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBAA2961A4943DD00AE3EC7 /* Fabric.framework */; };
+		8BC2F2741A638A7E006327C7 /* HPCounterThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2F2731A638A7E006327C7 /* HPCounterThread.m */; };
+		8BC2F2771A68E501006327C7 /* HPChapter07AL_01DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2F2761A68E501006327C7 /* HPChapter07AL_01DelegateViewController.m */; };
+		8BE328811A86C75200B4EB28 /* HPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE328801A86C75200B4EB28 /* HPSettingsViewController.m */; };
+		8BE328841A8C7DBD00B4EB28 /* HPChapter08_01VCLifecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE328831A8C7DBD00B4EB28 /* HPChapter08_01VCLifecycleViewController.m */; };
+		8BEA09F019B52D0A00499A54 /* HPChapter03AllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA09EF19B52D0A00499A54 /* HPChapter03AllTableViewController.m */; };
+		8BEA0A3A19B53C3B00499A54 /* HPChapter03_02BlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA0A3919B53C3B00499A54 /* HPChapter03_02BlocksViewController.m */; };
+		8BEA0A3E19B53D1200499A54 /* HPFriendsUpdateOp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA0A3D19B53D1200499A54 /* HPFriendsUpdateOp.m */; };
+		8BEA0A4419BBC58200499A54 /* HPDebugLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA0A4319BBC58200499A54 /* HPDebugLogViewController.m */; };
+		8BEF0D511A55DE000058F8C8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF0D501A55DE000058F8C8 /* libz.dylib */; };
+		8BEFB5891ABBD48C001CDF45 /* HPShareActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB5881ABBD48C001CDF45 /* HPShareActivity.m */; };
+		8BEFB58D1ABBD4A6001CDF45 /* HPShareActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB58B1ABBD4A6001CDF45 /* HPShareActivityViewController.m */; };
+		8BEFB58E1ABBD4A6001CDF45 /* HPShareActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFB58C1ABBD4A6001CDF45 /* HPShareActivityViewController.xib */; };
+		8BEFB5901ABBE178001CDF45 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEFB58F1ABBE178001CDF45 /* Security.framework */; };
+		8BEFB5C61ABBFB20001CDF45 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB5C51ABBFB20001CDF45 /* ActionViewController.m */; };
+		8BEFB5C81ABBFB20001CDF45 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFB5C71ABBFB20001CDF45 /* MainInterface.storyboard */; };
+		8BEFB5CB1ABBFB20001CDF45 /* actionRead.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BEFB5C01ABBFB20001CDF45 /* actionRead.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BEFB5DA1ABC0065001CDF45 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB5D91ABC0065001CDF45 /* ShareViewController.m */; };
+		8BEFB5DC1ABC0065001CDF45 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFB5DB1ABC0065001CDF45 /* MainInterface.storyboard */; };
+		8BEFB5DF1ABC0065001CDF45 /* shareRead.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BEFB5D41ABC0065001CDF45 /* shareRead.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BEFB6131ABDD9EC001CDF45 /* NSArray+HPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6121ABDD9EC001CDF45 /* NSArray+HPExtensions.m */; };
+		8BEFB6141ABDD9EC001CDF45 /* NSArray+HPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6121ABDD9EC001CDF45 /* NSArray+HPExtensions.m */; };
+		8BEFB6151ABDD9EC001CDF45 /* NSArray+HPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6121ABDD9EC001CDF45 /* NSArray+HPExtensions.m */; };
+		8BEFB61A1ABDDC32001CDF45 /* NSItemProvider+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6191ABDDC32001CDF45 /* NSItemProvider+HPExtension.m */; };
+		8BEFB61B1ABDDC32001CDF45 /* NSItemProvider+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6191ABDDC32001CDF45 /* NSItemProvider+HPExtension.m */; };
+		8BEFB61C1ABDDC32001CDF45 /* NSItemProvider+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6191ABDDC32001CDF45 /* NSItemProvider+HPExtension.m */; };
+		8BEFB6221ABDEEE4001CDF45 /* HPConfigurationItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6201ABDEEE4001CDF45 /* HPConfigurationItemViewController.m */; };
+		8BEFB6231ABDEEE4001CDF45 /* HPConfigurationItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6201ABDEEE4001CDF45 /* HPConfigurationItemViewController.m */; };
+		8BEFB6241ABDEEE4001CDF45 /* HPConfigurationItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFB6201ABDEEE4001CDF45 /* HPConfigurationItemViewController.m */; };
+		8BEFB6271ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFB6211ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib */; };
+		8BEFB6281ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFB6211ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib */; };
+		8BEFB6291ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFB6211ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib */; };
+		8BF9DD6F19EB5024005076B9 /* HPChapter05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9DD6E19EB5024005076B9 /* HPChapter05ViewController.m */; };
+		8BFA9CE51A3E377400CBDE38 /* HPCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA9CE41A3E377400CBDE38 /* HPCache.m */; };
+		8BFB739B1B238E360063EC45 /* HPChapter17ToolsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFB739A1B238E360063EC45 /* HPChapter17ToolsTableViewController.m */; };
+		8BFB739E1B2393990063EC45 /* HPChapter17Tools_02AllocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFB739D1B2393990063EC45 /* HPChapter17Tools_02AllocationsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B08C8A91ABF347A00DB4F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B530BFA19A1373700F97DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B08C8A01ABF347A00DB4F02;
+			remoteInfo = documentProviderFileProvider;
+		};
+		8B08C8AC1ABF347A00DB4F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B530BFA19A1373700F97DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B08C8921ABF347900DB4F02;
+			remoteInfo = documentProvider;
+		};
+		8BEFB5C91ABBFB20001CDF45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B530BFA19A1373700F97DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEFB5BF1ABBFB20001CDF45;
+			remoteInfo = actionRead;
+		};
+		8BEFB5DD1ABC0065001CDF45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B530BFA19A1373700F97DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEFB5D31ABC0065001CDF45;
+			remoteInfo = shareRead;
+		};
+		8BF6C15C1AD0C9D00049C130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B530BFA19A1373700F97DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B530C0119A1373700F97DE9;
+			remoteInfo = HighPerformance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BEFB5CF1ABBFB20001CDF45 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B08C8AE1ABF347A00DB4F02 /* documentProvider.appex in Embed App Extensions */,
+				8BEFB5DF1ABC0065001CDF45 /* shareRead.appex in Embed App Extensions */,
+				8BEFB5CB1ABBFB20001CDF45 /* actionRead.appex in Embed App Extensions */,
+				8B08C8AB1ABF347A00DB4F02 /* documentProviderFileProvider.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04F4B56EE83F5214C9B89B64 /* libPods-HighPerformanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HighPerformanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B04AEF5608EDD440EB6A26B /* Pods-HighPerformanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPerformanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HighPerformanceTests/Pods-HighPerformanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		77F2D05F85813FDE5778421D /* libPods-HighPerformance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HighPerformance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B04BCA419A90D330092FE6E /* HPChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapterViewController.h; sourceTree = "<group>"; };
+		8B04BCA519A90D330092FE6E /* HPChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapterViewController.m; sourceTree = "<group>"; };
+		8B04BCA719A925D00092FE6E /* HPChapter01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter01ViewController.h; sourceTree = "<group>"; };
+		8B04BCA819A925D00092FE6E /* HPChapter01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter01ViewController.m; sourceTree = "<group>"; };
+		8B04BCAD19A9CF800092FE6E /* HPChapter03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter03ViewController.h; sourceTree = "<group>"; };
+		8B04BCAE19A9CF800092FE6E /* HPChapter03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter03ViewController.m; sourceTree = "<group>"; };
+		8B04BCAF19A9CF800092FE6E /* HPMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMainTabBarViewController.h; sourceTree = "<group>"; };
+		8B04BCB019A9CF800092FE6E /* HPMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMainTabBarViewController.m; sourceTree = "<group>"; };
+		8B04BCB119A9CF800092FE6E /* HPSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSecondViewController.h; sourceTree = "<group>"; };
+		8B04BCB219A9CF800092FE6E /* HPSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSecondViewController.m; sourceTree = "<group>"; };
+		8B04DBD11A8F2FED00DF7158 /* HPMeasurableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMeasurableView.h; sourceTree = "<group>"; };
+		8B04DBD21A8F2FED00DF7158 /* HPMeasurableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMeasurableView.m; sourceTree = "<group>"; };
+		8B04DBFE1A9007DC00DF7158 /* HPChapter08_ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter08_ChildViewController.h; sourceTree = "<group>"; };
+		8B04DBFF1A9007DC00DF7158 /* HPChapter08_ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter08_ChildViewController.m; sourceTree = "<group>"; };
+		8B04DC001A9007DC00DF7158 /* HPChapter08_ChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPChapter08_ChildViewController.xib; sourceTree = "<group>"; };
+		8B04DC081A913A6C00DF7158 /* HPChapter08_02ViewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter08_02ViewsTableViewController.h; sourceTree = "<group>"; };
+		8B04DC091A913A6C00DF7158 /* HPChapter08_02ViewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter08_02ViewsTableViewController.m; sourceTree = "<group>"; };
+		8B08C8931ABF347900DB4F02 /* documentProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = documentProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B08C8961ABF347A00DB4F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B08C8971ABF347A00DB4F02 /* documentProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = documentProvider.entitlements; sourceTree = "<group>"; };
+		8B08C8981ABF347A00DB4F02 /* DocumentPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentPickerViewController.h; sourceTree = "<group>"; };
+		8B08C8991ABF347A00DB4F02 /* DocumentPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentPickerViewController.m; sourceTree = "<group>"; };
+		8B08C89B1ABF347A00DB4F02 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8B08C8A11ABF347A00DB4F02 /* documentProviderFileProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = documentProviderFileProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B08C8A41ABF347A00DB4F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B08C8A51ABF347A00DB4F02 /* documentProviderFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = documentProviderFileProvider.entitlements; sourceTree = "<group>"; };
+		8B08C8A61ABF347A00DB4F02 /* FileProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileProvider.h; sourceTree = "<group>"; };
+		8B08C8A71ABF347A00DB4F02 /* FileProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileProvider.m; sourceTree = "<group>"; };
+		8B0B3BF41A8DD8B5001A5C36 /* HPCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCustomLabel.h; sourceTree = "<group>"; };
+		8B0B3BF51A8DD8B5001A5C36 /* HPCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCustomLabel.m; sourceTree = "<group>"; };
+		8B3345D019D78FAF00B2661C /* HPChapter04_LocationManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter04_LocationManagerViewController.h; sourceTree = "<group>"; };
+		8B3345D119D78FAF00B2661C /* HPChapter04_LocationManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter04_LocationManagerViewController.m; sourceTree = "<group>"; };
+		8B3345D319D7A84200B2661C /* HPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPLocationManager.h; path = Core/HPLocationManager.h; sourceTree = "<group>"; };
+		8B3345D419D7A84200B2661C /* HPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPLocationManager.m; path = Core/HPLocationManager.m; sourceTree = "<group>"; };
+		8B3345D619D7CE4F00B2661C /* HPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPUtils.h; path = Core/HPUtils.h; sourceTree = "<group>"; };
+		8B3345D719D7CE4F00B2661C /* HPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPUtils.m; path = Core/HPUtils.m; sourceTree = "<group>"; };
+		8B3345D919D8C32300B2661C /* HPChapter04_ScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter04_ScreenViewController.h; sourceTree = "<group>"; };
+		8B3345DA19D8C32300B2661C /* HPChapter04_ScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter04_ScreenViewController.m; sourceTree = "<group>"; };
+		8B3345DC19D8D53800B2661C /* HPChapter04_Screen2ndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter04_Screen2ndViewController.h; sourceTree = "<group>"; };
+		8B3345DD19D8D53800B2661C /* HPChapter04_Screen2ndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter04_Screen2ndViewController.m; sourceTree = "<group>"; };
+		8B3345DE19D8D53800B2661C /* HPChapter04_Screen2ndViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPChapter04_Screen2ndViewController.xib; sourceTree = "<group>"; };
+		8B39C05819A865B100BB8F27 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8B39C05A19A865DD00BB8F27 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8B39C05B19A865DD00BB8F27 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B39C05C19A865DD00BB8F27 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8B39C05D19A865DD00BB8F27 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8B39C06A19A906E200BB8F27 /* bolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolt.png; sourceTree = "<group>"; };
+		8B39C06B19A906E200BB8F27 /* bolt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolt@2x.png"; sourceTree = "<group>"; };
+		8B3ACB9019A1C1DB008BE44E /* HPAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPAlbum.h; path = Models/HPAlbum.h; sourceTree = "<group>"; };
+		8B3ACB9119A1C1DB008BE44E /* HPAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPAlbum.m; path = Models/HPAlbum.m; sourceTree = "<group>"; };
+		8B3ACB9219A1C1DB008BE44E /* HPPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPPhoto.h; path = Models/HPPhoto.h; sourceTree = "<group>"; };
+		8B3ACB9319A1C1DB008BE44E /* HPPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPPhoto.m; path = Models/HPPhoto.m; sourceTree = "<group>"; };
+		8B3ACB9619A1C1E4008BE44E /* HPInstrumentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPInstrumentation.h; path = Core/HPInstrumentation.h; sourceTree = "<group>"; };
+		8B3ACB9719A1C1E4008BE44E /* HPInstrumentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPInstrumentation.m; path = Core/HPInstrumentation.m; sourceTree = "<group>"; };
+		8B3ACB9919A1CFA7008BE44E /* HPLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPLogger.h; path = Core/HPLogger.h; sourceTree = "<group>"; };
+		8B3ACB9A19A1CFA7008BE44E /* HPLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPLogger.m; path = Core/HPLogger.m; sourceTree = "<group>"; };
+		8B43226519C55B0200813AD8 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		8B43226619C55B0200813AD8 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		8B43226719C55B0200813AD8 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		8B43226819C55B0200813AD8 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		8B43226919C55B0200813AD8 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		8B43226A19C55B0200813AD8 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		8B43226B19C55B0200813AD8 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		8B43226C19C55B0200813AD8 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		8B43226D19C55B0200813AD8 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		8B43226E19C55B0200813AD8 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		8B43226F19C55B0200813AD8 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		8B43227019C55B0200813AD8 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		8B43227119C55B0200813AD8 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		8B43227319C55B0200813AD8 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		8B43227419C55B0200813AD8 /* libFlurry_5.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.2.0.a; sourceTree = "<group>"; };
+		8B43227A19C560E500813AD8 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		8B43227C19C6477000813AD8 /* HPChapter04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter04ViewController.h; sourceTree = "<group>"; };
+		8B43227D19C6477000813AD8 /* HPChapter04ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter04ViewController.m; sourceTree = "<group>"; };
+		8B43227F19C6601500813AD8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8B4487981BC639E5000E4338 /* HPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPConstants.h; path = Core/HPConstants.h; sourceTree = "<group>"; };
+		8B4487991BC639E5000E4338 /* HPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPConstants.m; path = Core/HPConstants.m; sourceTree = "<group>"; };
+		8B52FD5B1AD107A40088077D /* HPCacheTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCacheTest.m; sourceTree = "<group>"; };
+		8B530C0219A1373700F97DE9 /* HighPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B530C0519A1373700F97DE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B530C0719A1373700F97DE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B530C0919A1373700F97DE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B530C0D19A1373700F97DE9 /* HighPerformance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighPerformance-Info.plist"; sourceTree = "<group>"; };
+		8B530C0F19A1373700F97DE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B530C1119A1373700F97DE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B530C1319A1373700F97DE9 /* HighPerformance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HighPerformance-Prefix.pch"; sourceTree = "<group>"; };
+		8B530C1419A1373700F97DE9 /* HPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPAppDelegate.h; sourceTree = "<group>"; };
+		8B530C1519A1373700F97DE9 /* HPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPAppDelegate.m; sourceTree = "<group>"; };
+		8B530C1819A1373700F97DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B530C2019A1373700F97DE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B530C2619A1373700F97DE9 /* HighPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B530C2719A1373700F97DE9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8B530C2F19A1373700F97DE9 /* HighPerformanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighPerformanceTests-Info.plist"; sourceTree = "<group>"; };
+		8B530C3119A1373700F97DE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B530C4119A1383300F97DE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8B5813031D14491F0046D3AD /* hi-perf-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hi-perf-58.png"; sourceTree = "<group>"; };
+		8B5813041D14491F0046D3AD /* hi-perf-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hi-perf-80.png"; sourceTree = "<group>"; };
+		8B5813051D14491F0046D3AD /* hi-perf-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hi-perf-120.png"; sourceTree = "<group>"; };
+		8B5B25F71A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter08_03InteractiveNotificationViewController.h; sourceTree = "<group>"; };
+		8B5B25F81A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter08_03InteractiveNotificationViewController.m; sourceTree = "<group>"; };
+		8B60D1E71A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter08_02_Views_15SizeClassesViewController.h; sourceTree = "<group>"; };
+		8B60D1E81A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter08_02_Views_15SizeClassesViewController.m; sourceTree = "<group>"; };
+		8B6B942D1AD0E12000697DBD /* HPPhotoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPPhotoTest.m; sourceTree = "<group>"; };
+		8B6D09FE1B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter17Tools_03LeaksViewController.h; sourceTree = "<group>"; };
+		8B6D09FF1B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter17Tools_03LeaksViewController.m; sourceTree = "<group>"; };
+		8B6D0A011B24146200CE0F4D /* HPChapter17Tools_04NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter17Tools_04NetworkViewController.h; sourceTree = "<group>"; };
+		8B6D0A021B24146200CE0F4D /* HPChapter17Tools_04NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter17Tools_04NetworkViewController.m; sourceTree = "<group>"; };
+		8B6D0A041B24B67200CE0F4D /* HPChapter17Tools_PonyDebuggerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter17Tools_PonyDebuggerViewController.h; sourceTree = "<group>"; };
+		8B6D0A051B24B67200CE0F4D /* HPChapter17Tools_PonyDebuggerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter17Tools_PonyDebuggerViewController.m; sourceTree = "<group>"; };
+		8B6D88381AD0D28B00F9BD6B /* HPAlbumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPAlbumTest.m; sourceTree = "<group>"; };
+		8B70CE771AD2E59200FE8969 /* HPUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPUserService.h; sourceTree = "<group>"; };
+		8B70CE781AD2E59200FE8969 /* HPUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPUserService.m; sourceTree = "<group>"; };
+		8B70CE7A1AD2E5A900FE8969 /* HPSyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSyncService.h; sourceTree = "<group>"; };
+		8B70CE7B1AD2E5A900FE8969 /* HPSyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSyncService.m; sourceTree = "<group>"; };
+		8B70CE7D1AD2E61C00FE8969 /* HPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPUser.h; path = Models/HPUser.h; sourceTree = "<group>"; };
+		8B70CE7E1AD2E61C00FE8969 /* HPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPUser.m; path = Models/HPUser.m; sourceTree = "<group>"; };
+		8B70CE821AD2E97800FE8969 /* HPUserServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPUserServiceTest.m; sourceTree = "<group>"; };
+		8B8F65EF1AB7FB2A00C24621 /* HPChapter09_DataSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter09_DataSharingViewController.h; sourceTree = "<group>"; };
+		8B8F65F01AB7FB2A00C24621 /* HPChapter09_DataSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter09_DataSharingViewController.m; sourceTree = "<group>"; };
+		8B9150221A9318C400EF48E3 /* HPMailCompositeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMailCompositeCell.h; sourceTree = "<group>"; };
+		8B9150231A9318C400EF48E3 /* HPMailCompositeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMailCompositeCell.m; sourceTree = "<group>"; };
+		8B9150241A9318C400EF48E3 /* HPMailCompositeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPMailCompositeCell.xib; sourceTree = "<group>"; };
+		8B9150271A931E7300EF48E3 /* HPChapter08_02Views_10CustomViewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter08_02Views_10CustomViewsTableViewController.h; sourceTree = "<group>"; };
+		8B9150281A931E7300EF48E3 /* HPChapter08_02Views_10CustomViewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter08_02Views_10CustomViewsTableViewController.m; sourceTree = "<group>"; };
+		8B91502A1A94571F00EF48E3 /* HPMailDirectDrawCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPMailDirectDrawCell.h; sourceTree = "<group>"; };
+		8B91502B1A94571F00EF48E3 /* HPMailDirectDrawCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPMailDirectDrawCell.m; sourceTree = "<group>"; };
+		8B9AA14E1AB803160048231F /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
+		8BBAA2961A4943DD00AE3EC7 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		8BC2F2721A638A7E006327C7 /* HPCounterThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCounterThread.h; sourceTree = "<group>"; };
+		8BC2F2731A638A7E006327C7 /* HPCounterThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCounterThread.m; sourceTree = "<group>"; };
+		8BC2F2751A68E501006327C7 /* HPChapter07AL_01DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter07AL_01DelegateViewController.h; sourceTree = "<group>"; };
+		8BC2F2761A68E501006327C7 /* HPChapter07AL_01DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter07AL_01DelegateViewController.m; sourceTree = "<group>"; };
+		8BE3287F1A86C75200B4EB28 /* HPSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSettingsViewController.h; sourceTree = "<group>"; };
+		8BE328801A86C75200B4EB28 /* HPSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSettingsViewController.m; sourceTree = "<group>"; };
+		8BE328821A8C7DBD00B4EB28 /* HPChapter08_01VCLifecycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter08_01VCLifecycleViewController.h; sourceTree = "<group>"; };
+		8BE328831A8C7DBD00B4EB28 /* HPChapter08_01VCLifecycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter08_01VCLifecycleViewController.m; sourceTree = "<group>"; };
+		8BEA09EE19B52D0A00499A54 /* HPChapter03AllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter03AllTableViewController.h; sourceTree = "<group>"; };
+		8BEA09EF19B52D0A00499A54 /* HPChapter03AllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter03AllTableViewController.m; sourceTree = "<group>"; };
+		8BEA0A3819B53C3B00499A54 /* HPChapter03_02BlocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter03_02BlocksViewController.h; sourceTree = "<group>"; };
+		8BEA0A3919B53C3B00499A54 /* HPChapter03_02BlocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter03_02BlocksViewController.m; sourceTree = "<group>"; };
+		8BEA0A3C19B53D1200499A54 /* HPFriendsUpdateOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFriendsUpdateOp.h; sourceTree = "<group>"; };
+		8BEA0A3D19B53D1200499A54 /* HPFriendsUpdateOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFriendsUpdateOp.m; sourceTree = "<group>"; };
+		8BEA0A4219BBC58200499A54 /* HPDebugLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPDebugLogViewController.h; sourceTree = "<group>"; };
+		8BEA0A4319BBC58200499A54 /* HPDebugLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPDebugLogViewController.m; sourceTree = "<group>"; };
+		8BEF0D4E1A55D5BD0058F8C8 /* AmazonInsightsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AmazonInsightsSDK.framework; sourceTree = "<group>"; };
+		8BEF0D501A55DE000058F8C8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8BEFB5871ABBD48C001CDF45 /* HPShareActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPShareActivity.h; sourceTree = "<group>"; };
+		8BEFB5881ABBD48C001CDF45 /* HPShareActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPShareActivity.m; sourceTree = "<group>"; };
+		8BEFB58A1ABBD4A6001CDF45 /* HPShareActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPShareActivityViewController.h; sourceTree = "<group>"; };
+		8BEFB58B1ABBD4A6001CDF45 /* HPShareActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPShareActivityViewController.m; sourceTree = "<group>"; };
+		8BEFB58C1ABBD4A6001CDF45 /* HPShareActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPShareActivityViewController.xib; sourceTree = "<group>"; };
+		8BEFB58F1ABBE178001CDF45 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8BEFB5911ABBE40A001CDF45 /* HPerf Apps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "HPerf Apps.entitlements"; sourceTree = "<group>"; };
+		8BEFB5C01ABBFB20001CDF45 /* actionRead.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = actionRead.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEFB5C31ABBFB20001CDF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEFB5C41ABBFB20001CDF45 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		8BEFB5C51ABBFB20001CDF45 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		8BEFB5C71ABBFB20001CDF45 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8BEFB5D41ABC0065001CDF45 /* shareRead.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = shareRead.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEFB5D71ABC0065001CDF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEFB5D81ABC0065001CDF45 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		8BEFB5D91ABC0065001CDF45 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		8BEFB5DB1ABC0065001CDF45 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8BEFB6111ABDD9EC001CDF45 /* NSArray+HPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HPExtensions.h"; sourceTree = "<group>"; };
+		8BEFB6121ABDD9EC001CDF45 /* NSArray+HPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HPExtensions.m"; sourceTree = "<group>"; };
+		8BEFB6181ABDDC32001CDF45 /* NSItemProvider+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSItemProvider+HPExtension.h"; sourceTree = "<group>"; };
+		8BEFB6191ABDDC32001CDF45 /* NSItemProvider+HPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSItemProvider+HPExtension.m"; sourceTree = "<group>"; };
+		8BEFB61F1ABDEEE4001CDF45 /* HPConfigurationItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPConfigurationItemViewController.h; sourceTree = "<group>"; };
+		8BEFB6201ABDEEE4001CDF45 /* HPConfigurationItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPConfigurationItemViewController.m; sourceTree = "<group>"; };
+		8BEFB6211ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPConfigurationItemViewController.xib; sourceTree = "<group>"; };
+		8BF9DD6D19EB5024005076B9 /* HPChapter05ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter05ViewController.h; sourceTree = "<group>"; };
+		8BF9DD6E19EB5024005076B9 /* HPChapter05ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter05ViewController.m; sourceTree = "<group>"; };
+		8BFA9CE31A3E377400CBDE38 /* HPCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPCache.h; path = Core/HPCache.h; sourceTree = SOURCE_ROOT; };
+		8BFA9CE41A3E377400CBDE38 /* HPCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPCache.m; path = Core/HPCache.m; sourceTree = SOURCE_ROOT; };
+		8BFB73991B238E360063EC45 /* HPChapter17ToolsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter17ToolsTableViewController.h; sourceTree = "<group>"; };
+		8BFB739A1B238E360063EC45 /* HPChapter17ToolsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter17ToolsTableViewController.m; sourceTree = "<group>"; };
+		8BFB739C1B2393990063EC45 /* HPChapter17Tools_02AllocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter17Tools_02AllocationsViewController.h; sourceTree = "<group>"; };
+		8BFB739D1B2393990063EC45 /* HPChapter17Tools_02AllocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter17Tools_02AllocationsViewController.m; sourceTree = "<group>"; };
+		A40DD76AA1E070A60E03C435 /* Pods-HighPerformanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPerformanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HighPerformanceTests/Pods-HighPerformanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3A78934B8DDE2A7CD97D426 /* Pods-HighPerformance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPerformance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HighPerformance/Pods-HighPerformance.debug.xcconfig"; sourceTree = "<group>"; };
+		F1AD048C1EF1B2AC655B3437 /* Pods-HighPerformance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighPerformance.release.xcconfig"; path = "Pods/Target Support Files/Pods-HighPerformance/Pods-HighPerformance.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B08C8901ABF347900DB4F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B08C89E1ABF347A00DB4F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B530BFF19A1373700F97DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFB5901ABBE178001CDF45 /* Security.framework in Frameworks */,
+				8BEF0D511A55DE000058F8C8 /* libz.dylib in Frameworks */,
+				8B39C05F19A865DD00BB8F27 /* AudioToolbox.framework in Frameworks */,
+				8B39C06019A865DD00BB8F27 /* AVFoundation.framework in Frameworks */,
+				8B43227B19C560E500813AD8 /* Crashlytics.framework in Frameworks */,
+				8B39C06119A865DD00BB8F27 /* CoreTelephony.framework in Frameworks */,
+				8B39C06219A865DD00BB8F27 /* MessageUI.framework in Frameworks */,
+				8B43227519C55B0200813AD8 /* libGoogleAdMobAds.a in Frameworks */,
+				8B43227619C55B0200813AD8 /* libFlurry_5.2.0.a in Frameworks */,
+				8BBAA2971A4943DD00AE3EC7 /* Fabric.framework in Frameworks */,
+				8B530C0819A1373700F97DE9 /* CoreGraphics.framework in Frameworks */,
+				8B530C4219A1383300F97DE9 /* SystemConfiguration.framework in Frameworks */,
+				8B39C05919A865B100BB8F27 /* AdSupport.framework in Frameworks */,
+				8B530C0A19A1373700F97DE9 /* UIKit.framework in Frameworks */,
+				8B530C0619A1373700F97DE9 /* Foundation.framework in Frameworks */,
+				76B14BAB01940BA48645C3E8 /* libPods-HighPerformance.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B530C2319A1373700F97DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B530C2819A1373700F97DE9 /* XCTest.framework in Frameworks */,
+				8B530C2A19A1373700F97DE9 /* UIKit.framework in Frameworks */,
+				8B530C2919A1373700F97DE9 /* Foundation.framework in Frameworks */,
+				1C1D1ABCEBDD075C54E137A9 /* libPods-HighPerformanceTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFB5BD1ABBFB20001CDF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFB5D11ABC0065001CDF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31B0904EBE8E27610FF6C1AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3A78934B8DDE2A7CD97D426 /* Pods-HighPerformance.debug.xcconfig */,
+				F1AD048C1EF1B2AC655B3437 /* Pods-HighPerformance.release.xcconfig */,
+				A40DD76AA1E070A60E03C435 /* Pods-HighPerformanceTests.debug.xcconfig */,
+				0B04AEF5608EDD440EB6A26B /* Pods-HighPerformanceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B08C8941ABF347A00DB4F02 /* documentProvider */ = {
+			isa = PBXGroup;
+			children = (
+				8B08C8981ABF347A00DB4F02 /* DocumentPickerViewController.h */,
+				8B08C8991ABF347A00DB4F02 /* DocumentPickerViewController.m */,
+				8B08C89B1ABF347A00DB4F02 /* MainInterface.storyboard */,
+				8B08C8951ABF347A00DB4F02 /* Supporting Files */,
+			);
+			path = documentProvider;
+			sourceTree = "<group>";
+		};
+		8B08C8951ABF347A00DB4F02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B08C8961ABF347A00DB4F02 /* Info.plist */,
+				8B08C8971ABF347A00DB4F02 /* documentProvider.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B08C8A21ABF347A00DB4F02 /* documentProviderFileProvider */ = {
+			isa = PBXGroup;
+			children = (
+				8B08C8A61ABF347A00DB4F02 /* FileProvider.h */,
+				8B08C8A71ABF347A00DB4F02 /* FileProvider.m */,
+				8B08C8A31ABF347A00DB4F02 /* Supporting Files */,
+			);
+			path = documentProviderFileProvider;
+			sourceTree = "<group>";
+		};
+		8B08C8A31ABF347A00DB4F02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B08C8A41ABF347A00DB4F02 /* Info.plist */,
+				8B08C8A51ABF347A00DB4F02 /* documentProviderFileProvider.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B0B3BF21A8DD86D001A5C36 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB6091ABDD948001CDF45 /* Categories */,
+				8B70CE761AD2E57500FE8969 /* Service */,
+				8BEFB5861ABBD471001CDF45 /* Share */,
+				8B0B3BF31A8DD86D001A5C36 /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8B0B3BF31A8DD86D001A5C36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B0B3BF41A8DD8B5001A5C36 /* HPCustomLabel.h */,
+				8B0B3BF51A8DD8B5001A5C36 /* HPCustomLabel.m */,
+				8B04DBD11A8F2FED00DF7158 /* HPMeasurableView.h */,
+				8B04DBD21A8F2FED00DF7158 /* HPMeasurableView.m */,
+				8B9150221A9318C400EF48E3 /* HPMailCompositeCell.h */,
+				8B9150231A9318C400EF48E3 /* HPMailCompositeCell.m */,
+				8B9150241A9318C400EF48E3 /* HPMailCompositeCell.xib */,
+				8B91502A1A94571F00EF48E3 /* HPMailDirectDrawCell.h */,
+				8B91502B1A94571F00EF48E3 /* HPMailDirectDrawCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B39C06719A8FDD200BB8F27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B04BCA719A925D00092FE6E /* HPChapter01ViewController.h */,
+				8B04BCA819A925D00092FE6E /* HPChapter01ViewController.m */,
+				8B04BCAD19A9CF800092FE6E /* HPChapter03ViewController.h */,
+				8B04BCAE19A9CF800092FE6E /* HPChapter03ViewController.m */,
+				8B43227C19C6477000813AD8 /* HPChapter04ViewController.h */,
+				8B43227D19C6477000813AD8 /* HPChapter04ViewController.m */,
+				8BF9DD6D19EB5024005076B9 /* HPChapter05ViewController.h */,
+				8BF9DD6E19EB5024005076B9 /* HPChapter05ViewController.m */,
+				8B04BCAF19A9CF800092FE6E /* HPMainTabBarViewController.h */,
+				8B04BCB019A9CF800092FE6E /* HPMainTabBarViewController.m */,
+				8B04BCB119A9CF800092FE6E /* HPSecondViewController.h */,
+				8B04BCB219A9CF800092FE6E /* HPSecondViewController.m */,
+				8B04BCA419A90D330092FE6E /* HPChapterViewController.h */,
+				8B04BCA519A90D330092FE6E /* HPChapterViewController.m */,
+				8BEA09EE19B52D0A00499A54 /* HPChapter03AllTableViewController.h */,
+				8BEA09EF19B52D0A00499A54 /* HPChapter03AllTableViewController.m */,
+				8BEA0A3819B53C3B00499A54 /* HPChapter03_02BlocksViewController.h */,
+				8BEA0A3919B53C3B00499A54 /* HPChapter03_02BlocksViewController.m */,
+				8BEA0A4219BBC58200499A54 /* HPDebugLogViewController.h */,
+				8BEA0A4319BBC58200499A54 /* HPDebugLogViewController.m */,
+				8B3345D019D78FAF00B2661C /* HPChapter04_LocationManagerViewController.h */,
+				8B3345D119D78FAF00B2661C /* HPChapter04_LocationManagerViewController.m */,
+				8B3345D919D8C32300B2661C /* HPChapter04_ScreenViewController.h */,
+				8B3345DA19D8C32300B2661C /* HPChapter04_ScreenViewController.m */,
+				8B3345DC19D8D53800B2661C /* HPChapter04_Screen2ndViewController.h */,
+				8B3345DD19D8D53800B2661C /* HPChapter04_Screen2ndViewController.m */,
+				8B3345DE19D8D53800B2661C /* HPChapter04_Screen2ndViewController.xib */,
+				8BC2F2751A68E501006327C7 /* HPChapter07AL_01DelegateViewController.h */,
+				8BC2F2761A68E501006327C7 /* HPChapter07AL_01DelegateViewController.m */,
+				8BE3287F1A86C75200B4EB28 /* HPSettingsViewController.h */,
+				8BE328801A86C75200B4EB28 /* HPSettingsViewController.m */,
+				8BE328821A8C7DBD00B4EB28 /* HPChapter08_01VCLifecycleViewController.h */,
+				8BE328831A8C7DBD00B4EB28 /* HPChapter08_01VCLifecycleViewController.m */,
+				8B04DBFE1A9007DC00DF7158 /* HPChapter08_ChildViewController.h */,
+				8B04DBFF1A9007DC00DF7158 /* HPChapter08_ChildViewController.m */,
+				8B04DC001A9007DC00DF7158 /* HPChapter08_ChildViewController.xib */,
+				8B04DC081A913A6C00DF7158 /* HPChapter08_02ViewsTableViewController.h */,
+				8B04DC091A913A6C00DF7158 /* HPChapter08_02ViewsTableViewController.m */,
+				8B9150271A931E7300EF48E3 /* HPChapter08_02Views_10CustomViewsTableViewController.h */,
+				8B9150281A931E7300EF48E3 /* HPChapter08_02Views_10CustomViewsTableViewController.m */,
+				8B60D1E71A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.h */,
+				8B60D1E81A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.m */,
+				8B5B25F71A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.h */,
+				8B5B25F81A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.m */,
+				8B8F65EF1AB7FB2A00C24621 /* HPChapter09_DataSharingViewController.h */,
+				8B8F65F01AB7FB2A00C24621 /* HPChapter09_DataSharingViewController.m */,
+				8BFB73991B238E360063EC45 /* HPChapter17ToolsTableViewController.h */,
+				8BFB739A1B238E360063EC45 /* HPChapter17ToolsTableViewController.m */,
+				8BFB739C1B2393990063EC45 /* HPChapter17Tools_02AllocationsViewController.h */,
+				8BFB739D1B2393990063EC45 /* HPChapter17Tools_02AllocationsViewController.m */,
+				8B6D09FE1B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.h */,
+				8B6D09FF1B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.m */,
+				8B6D0A011B24146200CE0F4D /* HPChapter17Tools_04NetworkViewController.h */,
+				8B6D0A021B24146200CE0F4D /* HPChapter17Tools_04NetworkViewController.m */,
+				8B6D0A041B24B67200CE0F4D /* HPChapter17Tools_PonyDebuggerViewController.h */,
+				8B6D0A051B24B67200CE0F4D /* HPChapter17Tools_PonyDebuggerViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8B39C06919A906AC00BB8F27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8B39C06A19A906E200BB8F27 /* bolt.png */,
+				8B39C06B19A906E200BB8F27 /* bolt@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8B3ACB8F19A1C1C7008BE44E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8BFA9CE31A3E377400CBDE38 /* HPCache.h */,
+				8BFA9CE41A3E377400CBDE38 /* HPCache.m */,
+				8B3ACB9619A1C1E4008BE44E /* HPInstrumentation.h */,
+				8B3ACB9719A1C1E4008BE44E /* HPInstrumentation.m */,
+				8B3ACB9919A1CFA7008BE44E /* HPLogger.h */,
+				8B3ACB9A19A1CFA7008BE44E /* HPLogger.m */,
+				8B3345D319D7A84200B2661C /* HPLocationManager.h */,
+				8B3345D419D7A84200B2661C /* HPLocationManager.m */,
+				8B3345D619D7CE4F00B2661C /* HPUtils.h */,
+				8B3345D719D7CE4F00B2661C /* HPUtils.m */,
+				8B4487981BC639E5000E4338 /* HPConstants.h */,
+				8B4487991BC639E5000E4338 /* HPConstants.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		8B43226319C55AD600813AD8 /* 3pp */ = {
+			isa = PBXGroup;
+			children = (
+				8B43226419C55B0200813AD8 /* AdMob */,
+				8B43227219C55B0200813AD8 /* Flurry */,
+			);
+			path = 3pp;
+			sourceTree = "<group>";
+		};
+		8B43226419C55B0200813AD8 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				8B43226519C55B0200813AD8 /* GADAdMobExtras.h */,
+				8B43226619C55B0200813AD8 /* GADAdNetworkExtras.h */,
+				8B43226719C55B0200813AD8 /* GADAdSize.h */,
+				8B43226819C55B0200813AD8 /* GADBannerView.h */,
+				8B43226919C55B0200813AD8 /* GADBannerViewDelegate.h */,
+				8B43226A19C55B0200813AD8 /* GADInAppPurchase.h */,
+				8B43226B19C55B0200813AD8 /* GADInAppPurchaseDelegate.h */,
+				8B43226C19C55B0200813AD8 /* GADInterstitial.h */,
+				8B43226D19C55B0200813AD8 /* GADInterstitialDelegate.h */,
+				8B43226E19C55B0200813AD8 /* GADModules.h */,
+				8B43226F19C55B0200813AD8 /* GADRequest.h */,
+				8B43227019C55B0200813AD8 /* GADRequestError.h */,
+				8B43227119C55B0200813AD8 /* libGoogleAdMobAds.a */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		8B43227219C55B0200813AD8 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				8B43227319C55B0200813AD8 /* Flurry.h */,
+				8B43227419C55B0200813AD8 /* libFlurry_5.2.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		8B52FD5A1AD107970088077D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8B52FD5B1AD107A40088077D /* HPCacheTest.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8B530BF919A1373700F97DE9 = {
+			isa = PBXGroup;
+			children = (
+				8B0B3BF21A8DD86D001A5C36 /* App */,
+				8B43226319C55AD600813AD8 /* 3pp */,
+				8BEA0A3B19B53CF800499A54 /* Operations */,
+				8B39C06719A8FDD200BB8F27 /* ViewControllers */,
+				8B3ACB8F19A1C1C7008BE44E /* Core */,
+				8B530C4319A138E700F97DE9 /* Models */,
+				8B530C0B19A1373700F97DE9 /* HighPerformance */,
+				8B530C2D19A1373700F97DE9 /* HighPerformanceTests */,
+				8BEFB5C11ABBFB20001CDF45 /* actionRead */,
+				8BEFB5D51ABC0065001CDF45 /* shareRead */,
+				8B08C8941ABF347A00DB4F02 /* documentProvider */,
+				8B08C8A21ABF347A00DB4F02 /* documentProviderFileProvider */,
+				8B530C0419A1373700F97DE9 /* Frameworks */,
+				8B530C0319A1373700F97DE9 /* Products */,
+				31B0904EBE8E27610FF6C1AE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8B530C0319A1373700F97DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B530C0219A1373700F97DE9 /* HighPerformance.app */,
+				8B530C2619A1373700F97DE9 /* HighPerformanceTests.xctest */,
+				8BEFB5C01ABBFB20001CDF45 /* actionRead.appex */,
+				8BEFB5D41ABC0065001CDF45 /* shareRead.appex */,
+				8B08C8931ABF347900DB4F02 /* documentProvider.appex */,
+				8B08C8A11ABF347A00DB4F02 /* documentProviderFileProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B530C0419A1373700F97DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB58F1ABBE178001CDF45 /* Security.framework */,
+				8BEF0D501A55DE000058F8C8 /* libz.dylib */,
+				8BEF0D4E1A55D5BD0058F8C8 /* AmazonInsightsSDK.framework */,
+				8BBAA2961A4943DD00AE3EC7 /* Fabric.framework */,
+				8B43227A19C560E500813AD8 /* Crashlytics.framework */,
+				8B39C05A19A865DD00BB8F27 /* AudioToolbox.framework */,
+				8B39C05B19A865DD00BB8F27 /* AVFoundation.framework */,
+				8B39C05C19A865DD00BB8F27 /* CoreTelephony.framework */,
+				8B39C05D19A865DD00BB8F27 /* MessageUI.framework */,
+				8B39C05819A865B100BB8F27 /* AdSupport.framework */,
+				8B530C4119A1383300F97DE9 /* SystemConfiguration.framework */,
+				8B530C0519A1373700F97DE9 /* Foundation.framework */,
+				8B530C0719A1373700F97DE9 /* CoreGraphics.framework */,
+				8B530C0919A1373700F97DE9 /* UIKit.framework */,
+				8B530C2719A1373700F97DE9 /* XCTest.framework */,
+				77F2D05F85813FDE5778421D /* libPods-HighPerformance.a */,
+				04F4B56EE83F5214C9B89B64 /* libPods-HighPerformanceTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B530C0B19A1373700F97DE9 /* HighPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB5911ABBE40A001CDF45 /* HPerf Apps.entitlements */,
+				8B530C1419A1373700F97DE9 /* HPAppDelegate.h */,
+				8B530C1519A1373700F97DE9 /* HPAppDelegate.m */,
+				8B530C1719A1373700F97DE9 /* Main.storyboard */,
+				8B530C2019A1373700F97DE9 /* Images.xcassets */,
+				8B530C0C19A1373700F97DE9 /* Supporting Files */,
+				8B43227F19C6601500813AD8 /* Settings.bundle */,
+			);
+			path = HighPerformance;
+			sourceTree = "<group>";
+		};
+		8B530C0C19A1373700F97DE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B5813031D14491F0046D3AD /* hi-perf-58.png */,
+				8B5813041D14491F0046D3AD /* hi-perf-80.png */,
+				8B5813051D14491F0046D3AD /* hi-perf-120.png */,
+				8B9AA14E1AB803160048231F /* sample.pdf */,
+				8B39C06919A906AC00BB8F27 /* Images */,
+				8B530C0D19A1373700F97DE9 /* HighPerformance-Info.plist */,
+				8B530C0E19A1373700F97DE9 /* InfoPlist.strings */,
+				8B530C1119A1373700F97DE9 /* main.m */,
+				8B530C1319A1373700F97DE9 /* HighPerformance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B530C2D19A1373700F97DE9 /* HighPerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B70CE801AD2E96700FE8969 /* App */,
+				8B52FD5A1AD107970088077D /* Core */,
+				8B6D88371AD0D28B00F9BD6B /* Models */,
+				8B530C2E19A1373700F97DE9 /* Supporting Files */,
+			);
+			path = HighPerformanceTests;
+			sourceTree = "<group>";
+		};
+		8B530C2E19A1373700F97DE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B530C2F19A1373700F97DE9 /* HighPerformanceTests-Info.plist */,
+				8B530C3019A1373700F97DE9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B530C4319A138E700F97DE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B3ACB9019A1C1DB008BE44E /* HPAlbum.h */,
+				8B3ACB9119A1C1DB008BE44E /* HPAlbum.m */,
+				8B3ACB9219A1C1DB008BE44E /* HPPhoto.h */,
+				8B3ACB9319A1C1DB008BE44E /* HPPhoto.m */,
+				8B70CE7D1AD2E61C00FE8969 /* HPUser.h */,
+				8B70CE7E1AD2E61C00FE8969 /* HPUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8B6D88371AD0D28B00F9BD6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B6D88381AD0D28B00F9BD6B /* HPAlbumTest.m */,
+				8B6B942D1AD0E12000697DBD /* HPPhotoTest.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B70CE761AD2E57500FE8969 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8B70CE771AD2E59200FE8969 /* HPUserService.h */,
+				8B70CE781AD2E59200FE8969 /* HPUserService.m */,
+				8B70CE7A1AD2E5A900FE8969 /* HPSyncService.h */,
+				8B70CE7B1AD2E5A900FE8969 /* HPSyncService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B70CE801AD2E96700FE8969 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8B70CE811AD2E96700FE8969 /* Service */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8B70CE811AD2E96700FE8969 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8B70CE821AD2E97800FE8969 /* HPUserServiceTest.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8BEA0A3B19B53CF800499A54 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				8BC2F2721A638A7E006327C7 /* HPCounterThread.h */,
+				8BC2F2731A638A7E006327C7 /* HPCounterThread.m */,
+				8BEA0A3C19B53D1200499A54 /* HPFriendsUpdateOp.h */,
+				8BEA0A3D19B53D1200499A54 /* HPFriendsUpdateOp.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		8BEFB5861ABBD471001CDF45 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB5871ABBD48C001CDF45 /* HPShareActivity.h */,
+				8BEFB5881ABBD48C001CDF45 /* HPShareActivity.m */,
+				8BEFB58A1ABBD4A6001CDF45 /* HPShareActivityViewController.h */,
+				8BEFB58B1ABBD4A6001CDF45 /* HPShareActivityViewController.m */,
+				8BEFB58C1ABBD4A6001CDF45 /* HPShareActivityViewController.xib */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		8BEFB5C11ABBFB20001CDF45 /* actionRead */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB5C41ABBFB20001CDF45 /* ActionViewController.h */,
+				8BEFB5C51ABBFB20001CDF45 /* ActionViewController.m */,
+				8BEFB5C71ABBFB20001CDF45 /* MainInterface.storyboard */,
+				8BEFB5C21ABBFB20001CDF45 /* Supporting Files */,
+			);
+			path = actionRead;
+			sourceTree = "<group>";
+		};
+		8BEFB5C21ABBFB20001CDF45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB5C31ABBFB20001CDF45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BEFB5D51ABC0065001CDF45 /* shareRead */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB5D81ABC0065001CDF45 /* ShareViewController.h */,
+				8BEFB5D91ABC0065001CDF45 /* ShareViewController.m */,
+				8BEFB5DB1ABC0065001CDF45 /* MainInterface.storyboard */,
+				8BEFB5D61ABC0065001CDF45 /* Supporting Files */,
+				8BEFB61F1ABDEEE4001CDF45 /* HPConfigurationItemViewController.h */,
+				8BEFB6201ABDEEE4001CDF45 /* HPConfigurationItemViewController.m */,
+				8BEFB6211ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib */,
+			);
+			path = shareRead;
+			sourceTree = "<group>";
+		};
+		8BEFB5D61ABC0065001CDF45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB5D71ABC0065001CDF45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BEFB6091ABDD948001CDF45 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFB6111ABDD9EC001CDF45 /* NSArray+HPExtensions.h */,
+				8BEFB6121ABDD9EC001CDF45 /* NSArray+HPExtensions.m */,
+				8BEFB6181ABDDC32001CDF45 /* NSItemProvider+HPExtension.h */,
+				8BEFB6191ABDDC32001CDF45 /* NSItemProvider+HPExtension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B08C8921ABF347900DB4F02 /* documentProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B08C8B41ABF347A00DB4F02 /* Build configuration list for PBXNativeTarget "documentProvider" */;
+			buildPhases = (
+				8B08C88F1ABF347900DB4F02 /* Sources */,
+				8B08C8901ABF347900DB4F02 /* Frameworks */,
+				8B08C8911ABF347900DB4F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = documentProvider;
+			productName = documentProvider;
+			productReference = 8B08C8931ABF347900DB4F02 /* documentProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8B08C8A01ABF347A00DB4F02 /* documentProviderFileProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B08C8B31ABF347A00DB4F02 /* Build configuration list for PBXNativeTarget "documentProviderFileProvider" */;
+			buildPhases = (
+				8B08C89D1ABF347A00DB4F02 /* Sources */,
+				8B08C89E1ABF347A00DB4F02 /* Frameworks */,
+				8B08C89F1ABF347A00DB4F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = documentProviderFileProvider;
+			productName = documentProviderFileProvider;
+			productReference = 8B08C8A11ABF347A00DB4F02 /* documentProviderFileProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8B530C0119A1373700F97DE9 /* HighPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B530C3719A1373700F97DE9 /* Build configuration list for PBXNativeTarget "HighPerformance" */;
+			buildPhases = (
+				B1115897C22CA8450B6C42CF /* 📦 Check Pods Manifest.lock */,
+				8B530BFE19A1373700F97DE9 /* Sources */,
+				8B530BFF19A1373700F97DE9 /* Frameworks */,
+				8B530C0019A1373700F97DE9 /* Resources */,
+				8B43227719C55FE900813AD8 /* Fabric */,
+				8BEFB5CF1ABBFB20001CDF45 /* Embed App Extensions */,
+				8B74BF161B2D4D44009E1BC0 /* NewRelic */,
+				E0FA6384004DFC526A01A149 /* 📦 Embed Pods Frameworks */,
+				5AB9E5678B897DD138C02D0C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEFB5CA1ABBFB20001CDF45 /* PBXTargetDependency */,
+				8BEFB5DE1ABC0065001CDF45 /* PBXTargetDependency */,
+				8B08C8AA1ABF347A00DB4F02 /* PBXTargetDependency */,
+				8B08C8AD1ABF347A00DB4F02 /* PBXTargetDependency */,
+			);
+			name = HighPerformance;
+			productName = HighPerformance;
+			productReference = 8B530C0219A1373700F97DE9 /* HighPerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B530C2519A1373700F97DE9 /* HighPerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B530C3A19A1373700F97DE9 /* Build configuration list for PBXNativeTarget "HighPerformanceTests" */;
+			buildPhases = (
+				2B748E3C176D22EDD10D1584 /* 📦 Check Pods Manifest.lock */,
+				8B530C2219A1373700F97DE9 /* Sources */,
+				8B530C2319A1373700F97DE9 /* Frameworks */,
+				8B530C2419A1373700F97DE9 /* Resources */,
+				6B0FA949B0E2B687CCD9EA28 /* 📦 Embed Pods Frameworks */,
+				FBFDC28C30BD80D234A9C9B9 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF6C15D1AD0C9D00049C130 /* PBXTargetDependency */,
+			);
+			name = HighPerformanceTests;
+			productName = HighPerformanceTests;
+			productReference = 8B530C2619A1373700F97DE9 /* HighPerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BEFB5BF1ABBFB20001CDF45 /* actionRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEFB5CE1ABBFB20001CDF45 /* Build configuration list for PBXNativeTarget "actionRead" */;
+			buildPhases = (
+				8BEFB5BC1ABBFB20001CDF45 /* Sources */,
+				8BEFB5BD1ABBFB20001CDF45 /* Frameworks */,
+				8BEFB5BE1ABBFB20001CDF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = actionRead;
+			productName = actionRead;
+			productReference = 8BEFB5C01ABBFB20001CDF45 /* actionRead.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8BEFB5D31ABC0065001CDF45 /* shareRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEFB5E21ABC0066001CDF45 /* Build configuration list for PBXNativeTarget "shareRead" */;
+			buildPhases = (
+				8BEFB5D01ABC0065001CDF45 /* Sources */,
+				8BEFB5D11ABC0065001CDF45 /* Frameworks */,
+				8BEFB5D21ABC0065001CDF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shareRead;
+			productName = shareRead;
+			productReference = 8BEFB5D41ABC0065001CDF45 /* shareRead.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B530BFA19A1373700F97DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HP;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gaurav Vaish";
+				TargetAttributes = {
+					8B08C8921ABF347900DB4F02 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = XZ4U9NFFE7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8B08C8A01ABF347A00DB4F02 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = XZ4U9NFFE7;
+					};
+					8B530C0119A1373700F97DE9 = {
+						DevelopmentTeam = XZ4U9NFFE7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					8B530C2519A1373700F97DE9 = {
+						TestTargetID = 8B530C0119A1373700F97DE9;
+					};
+					8BEFB5BF1ABBFB20001CDF45 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = XZ4U9NFFE7;
+					};
+					8BEFB5D31ABC0065001CDF45 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = XZ4U9NFFE7;
+					};
+				};
+			};
+			buildConfigurationList = 8B530BFD19A1373700F97DE9 /* Build configuration list for PBXProject "HighPerformance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B530BF919A1373700F97DE9;
+			productRefGroup = 8B530C0319A1373700F97DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B530C0119A1373700F97DE9 /* HighPerformance */,
+				8B530C2519A1373700F97DE9 /* HighPerformanceTests */,
+				8BEFB5BF1ABBFB20001CDF45 /* actionRead */,
+				8BEFB5D31ABC0065001CDF45 /* shareRead */,
+				8B08C8921ABF347900DB4F02 /* documentProvider */,
+				8B08C8A01ABF347A00DB4F02 /* documentProviderFileProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B08C8911ABF347900DB4F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B08C89C1ABF347A00DB4F02 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B08C89F1ABF347A00DB4F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B530C0019A1373700F97DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B530C2119A1373700F97DE9 /* Images.xcassets in Resources */,
+				8B39C06D19A906E200BB8F27 /* bolt@2x.png in Resources */,
+				8B5813081D1449200046D3AD /* hi-perf-120.png in Resources */,
+				8B530C1019A1373700F97DE9 /* InfoPlist.strings in Resources */,
+				8B39C06C19A906E200BB8F27 /* bolt.png in Resources */,
+				8BEFB6271ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib in Resources */,
+				8BEFB58E1ABBD4A6001CDF45 /* HPShareActivityViewController.xib in Resources */,
+				8B5813061D14491F0046D3AD /* hi-perf-58.png in Resources */,
+				8B04DC021A9007DC00DF7158 /* HPChapter08_ChildViewController.xib in Resources */,
+				8B9AA14F1AB803160048231F /* sample.pdf in Resources */,
+				8B530C1919A1373700F97DE9 /* Main.storyboard in Resources */,
+				8B3345E019D8D53800B2661C /* HPChapter04_Screen2ndViewController.xib in Resources */,
+				8B5813071D1449200046D3AD /* hi-perf-80.png in Resources */,
+				8B43228019C6601500813AD8 /* Settings.bundle in Resources */,
+				8B9150261A9318C400EF48E3 /* HPMailCompositeCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B530C2419A1373700F97DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B530C3219A1373700F97DE9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFB5BE1ABBFB20001CDF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFB6281ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib in Resources */,
+				8BEFB5C81ABBFB20001CDF45 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFB5D21ABC0065001CDF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFB6291ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib in Resources */,
+				8BEFB5DC1ABC0065001CDF45 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B748E3C176D22EDD10D1584 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB9E5678B897DD138C02D0C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPerformance/Pods-HighPerformance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B0FA949B0E2B687CCD9EA28 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPerformanceTests/Pods-HighPerformanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B43227719C55FE900813AD8 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 6b8ccdb8ba0cf4f64ed197effd3e48f1e3a07eb1 3105fc33165ce246cd39764c63812922964b18014d353bffbe93917072d548a0";
+		};
+		8B74BF161B2D4D44009E1BC0 /* NewRelic */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = NewRelic;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./newrelic.sh;
+		};
+		B1115897C22CA8450B6C42CF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0FA6384004DFC526A01A149 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPerformance/Pods-HighPerformance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFDC28C30BD80D234A9C9B9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HighPerformanceTests/Pods-HighPerformanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B08C88F1ABF347900DB4F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B08C89A1ABF347A00DB4F02 /* DocumentPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B08C89D1ABF347A00DB4F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B08C8A81ABF347A00DB4F02 /* FileProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B530BFE19A1373700F97DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B04DC0A1A913A6C00DF7158 /* HPChapter08_02ViewsTableViewController.m in Sources */,
+				8BEA09F019B52D0A00499A54 /* HPChapter03AllTableViewController.m in Sources */,
+				8BFB739E1B2393990063EC45 /* HPChapter17Tools_02AllocationsViewController.m in Sources */,
+				8B6D0A031B24146200CE0F4D /* HPChapter17Tools_04NetworkViewController.m in Sources */,
+				8B3ACB9519A1C1DB008BE44E /* HPPhoto.m in Sources */,
+				8B8F65F11AB7FB2A00C24621 /* HPChapter09_DataSharingViewController.m in Sources */,
+				8B04DBD31A8F2FED00DF7158 /* HPMeasurableView.m in Sources */,
+				8B04DC011A9007DC00DF7158 /* HPChapter08_ChildViewController.m in Sources */,
+				8B530C1619A1373700F97DE9 /* HPAppDelegate.m in Sources */,
+				8B6D0A061B24B67200CE0F4D /* HPChapter17Tools_PonyDebuggerViewController.m in Sources */,
+				8B6D0A001B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.m in Sources */,
+				8BEFB61A1ABDDC32001CDF45 /* NSItemProvider+HPExtension.m in Sources */,
+				8BEFB6221ABDEEE4001CDF45 /* HPConfigurationItemViewController.m in Sources */,
+				8B3345D819D7CE4F00B2661C /* HPUtils.m in Sources */,
+				8B530C1219A1373700F97DE9 /* main.m in Sources */,
+				8B0B3BF61A8DD8B5001A5C36 /* HPCustomLabel.m in Sources */,
+				8B5B25F91A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.m in Sources */,
+				8BF9DD6F19EB5024005076B9 /* HPChapter05ViewController.m in Sources */,
+				8BEFB6131ABDD9EC001CDF45 /* NSArray+HPExtensions.m in Sources */,
+				8B44879A1BC639E5000E4338 /* HPConstants.m in Sources */,
+				8B3345D519D7A84200B2661C /* HPLocationManager.m in Sources */,
+				8B04BCB419A9CF800092FE6E /* HPMainTabBarViewController.m in Sources */,
+				8BEA0A3E19B53D1200499A54 /* HPFriendsUpdateOp.m in Sources */,
+				8B9150291A931E7300EF48E3 /* HPChapter08_02Views_10CustomViewsTableViewController.m in Sources */,
+				8BE328841A8C7DBD00B4EB28 /* HPChapter08_01VCLifecycleViewController.m in Sources */,
+				8BC2F2771A68E501006327C7 /* HPChapter07AL_01DelegateViewController.m in Sources */,
+				8B3345D219D78FAF00B2661C /* HPChapter04_LocationManagerViewController.m in Sources */,
+				8BEA0A3A19B53C3B00499A54 /* HPChapter03_02BlocksViewController.m in Sources */,
+				8BEFB58D1ABBD4A6001CDF45 /* HPShareActivityViewController.m in Sources */,
+				8BEFB5891ABBD48C001CDF45 /* HPShareActivity.m in Sources */,
+				8B3345DF19D8D53800B2661C /* HPChapter04_Screen2ndViewController.m in Sources */,
+				8B04BCB319A9CF800092FE6E /* HPChapter03ViewController.m in Sources */,
+				8B43227E19C6477000813AD8 /* HPChapter04ViewController.m in Sources */,
+				8BFA9CE51A3E377400CBDE38 /* HPCache.m in Sources */,
+				8BEA0A4419BBC58200499A54 /* HPDebugLogViewController.m in Sources */,
+				8B70CE791AD2E59200FE8969 /* HPUserService.m in Sources */,
+				8BE328811A86C75200B4EB28 /* HPSettingsViewController.m in Sources */,
+				8BC2F2741A638A7E006327C7 /* HPCounterThread.m in Sources */,
+				8B04BCA919A925D00092FE6E /* HPChapter01ViewController.m in Sources */,
+				8B70CE7F1AD2E61C00FE8969 /* HPUser.m in Sources */,
+				8B3ACB9819A1C1E4008BE44E /* HPInstrumentation.m in Sources */,
+				8B60D1E91A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.m in Sources */,
+				8B91502C1A94571F00EF48E3 /* HPMailDirectDrawCell.m in Sources */,
+				8B3ACB9B19A1CFA7008BE44E /* HPLogger.m in Sources */,
+				8B04BCB519A9CF800092FE6E /* HPSecondViewController.m in Sources */,
+				8B3ACB9419A1C1DB008BE44E /* HPAlbum.m in Sources */,
+				8BFB739B1B238E360063EC45 /* HPChapter17ToolsTableViewController.m in Sources */,
+				8B70CE7C1AD2E5A900FE8969 /* HPSyncService.m in Sources */,
+				8B3345DB19D8C32300B2661C /* HPChapter04_ScreenViewController.m in Sources */,
+				8B9150251A9318C400EF48E3 /* HPMailCompositeCell.m in Sources */,
+				8B04BCA619A90D330092FE6E /* HPChapterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B530C2219A1373700F97DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B52FD5C1AD107A40088077D /* HPCacheTest.m in Sources */,
+				8B6D88391AD0D28B00F9BD6B /* HPAlbumTest.m in Sources */,
+				8B70CE831AD2E97800FE8969 /* HPUserServiceTest.m in Sources */,
+				8B6B942E1AD0E12000697DBD /* HPPhotoTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFB5BC1ABBFB20001CDF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFB6231ABDEEE4001CDF45 /* HPConfigurationItemViewController.m in Sources */,
+				8BEFB6141ABDD9EC001CDF45 /* NSArray+HPExtensions.m in Sources */,
+				8BEFB61B1ABDDC32001CDF45 /* NSItemProvider+HPExtension.m in Sources */,
+				8BEFB5C61ABBFB20001CDF45 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFB5D01ABC0065001CDF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFB6241ABDEEE4001CDF45 /* HPConfigurationItemViewController.m in Sources */,
+				8BEFB6151ABDD9EC001CDF45 /* NSArray+HPExtensions.m in Sources */,
+				8BEFB61C1ABDDC32001CDF45 /* NSItemProvider+HPExtension.m in Sources */,
+				8BEFB5DA1ABC0065001CDF45 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B08C8AA1ABF347A00DB4F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B08C8A01ABF347A00DB4F02 /* documentProviderFileProvider */;
+			targetProxy = 8B08C8A91ABF347A00DB4F02 /* PBXContainerItemProxy */;
+		};
+		8B08C8AD1ABF347A00DB4F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B08C8921ABF347900DB4F02 /* documentProvider */;
+			targetProxy = 8B08C8AC1ABF347A00DB4F02 /* PBXContainerItemProxy */;
+		};
+		8BEFB5CA1ABBFB20001CDF45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEFB5BF1ABBFB20001CDF45 /* actionRead */;
+			targetProxy = 8BEFB5C91ABBFB20001CDF45 /* PBXContainerItemProxy */;
+		};
+		8BEFB5DE1ABC0065001CDF45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEFB5D31ABC0065001CDF45 /* shareRead */;
+			targetProxy = 8BEFB5DD1ABC0065001CDF45 /* PBXContainerItemProxy */;
+		};
+		8BF6C15D1AD0C9D00049C130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B530C0119A1373700F97DE9 /* HighPerformance */;
+			targetProxy = 8BF6C15C1AD0C9D00049C130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B530C0E19A1373700F97DE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B530C0F19A1373700F97DE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B530C1719A1373700F97DE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B530C1819A1373700F97DE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B530C3019A1373700F97DE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B530C3119A1373700F97DE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B08C8AF1ABF347A00DB4F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = documentProvider/documentProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = documentProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B08C8B01ABF347A00DB4F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = documentProvider/documentProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = documentProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B08C8B11ABF347A00DB4F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = documentProviderFileProvider/documentProviderFileProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = documentProviderFileProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B08C8B21ABF347A00DB4F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = documentProviderFileProvider/documentProviderFileProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = documentProviderFileProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B530C3519A1373700F97DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_GROUP = "";
+				INSTALL_OWNER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B530C3619A1373700F97DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_GROUP = "";
+				INSTALL_OWNER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B530C3819A1373700F97DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A78934B8DDE2A7CD97D426 /* Pods-HighPerformance.debug.xcconfig */;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ALTERNATE_OWNER = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "HighPerformance/HPerf Apps.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3pp",
+					"$(PROJECT_DIR)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HighPerformance/HighPerformance-Prefix.pch";
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				INFOPLIST_FILE = "HighPerformance/HighPerformance-Info.plist";
+				INSTALL_GROUP = "";
+				INSTALL_OWNER = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3pp/AdMob",
+					"$(PROJECT_DIR)/3pp/Flurry",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = HighPerformance;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B530C3919A1373700F97DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AD048C1EF1B2AC655B3437 /* Pods-HighPerformance.release.xcconfig */;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ALTERNATE_OWNER = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "HighPerformance/HPerf Apps.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3pp",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HighPerformance/HighPerformance-Prefix.pch";
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				INFOPLIST_FILE = "HighPerformance/HighPerformance-Info.plist";
+				INSTALL_GROUP = "";
+				INSTALL_OWNER = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3pp/AdMob",
+					"$(PROJECT_DIR)/3pp/Flurry",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = HighPerformance;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8B530C3B19A1373700F97DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40DD76AA1E070A60E03C435 /* Pods-HighPerformanceTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HighPerformance.app/HighPerformance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HighPerformance/HighPerformance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HighPerformanceTests/HighPerformanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8B530C3C19A1373700F97DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B04AEF5608EDD440EB6A26B /* Pods-HighPerformanceTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HighPerformance.app/HighPerformance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HighPerformance/HighPerformance-Prefix.pch";
+				INFOPLIST_FILE = "HighPerformanceTests/HighPerformanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		8BEFB5CC1ABBFB20001CDF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = actionRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8BEFB5CD1ABBFB20001CDF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = actionRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8BEFB5E01ABC0066001CDF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconShareRead;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shareRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8BEFB5E11ABC0066001CDF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconShareRead;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = shareRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B08C8B31ABF347A00DB4F02 /* Build configuration list for PBXNativeTarget "documentProviderFileProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B08C8B11ABF347A00DB4F02 /* Debug */,
+				8B08C8B21ABF347A00DB4F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B08C8B41ABF347A00DB4F02 /* Build configuration list for PBXNativeTarget "documentProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B08C8AF1ABF347A00DB4F02 /* Debug */,
+				8B08C8B01ABF347A00DB4F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B530BFD19A1373700F97DE9 /* Build configuration list for PBXProject "HighPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B530C3519A1373700F97DE9 /* Debug */,
+				8B530C3619A1373700F97DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B530C3719A1373700F97DE9 /* Build configuration list for PBXNativeTarget "HighPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B530C3819A1373700F97DE9 /* Debug */,
+				8B530C3919A1373700F97DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B530C3A19A1373700F97DE9 /* Build configuration list for PBXNativeTarget "HighPerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B530C3B19A1373700F97DE9 /* Debug */,
+				8B530C3C19A1373700F97DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEFB5CE1ABBFB20001CDF45 /* Build configuration list for PBXNativeTarget "actionRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFB5CC1ABBFB20001CDF45 /* Debug */,
+				8BEFB5CD1ABBFB20001CDF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEFB5E21ABC0066001CDF45 /* Build configuration list for PBXNativeTarget "shareRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFB5E01ABC0066001CDF45 /* Debug */,
+				8BEFB5E11ABC0066001CDF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B530BFA19A1373700F97DE9 /* Project object */;
+}
