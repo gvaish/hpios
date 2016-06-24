@@ -116,11 +116,11 @@
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Weg-23-Fzb" id="l24-mf-1AF">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UNh-kV-Bad">
-                                            <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -441,7 +441,7 @@ Times Square</string>
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="npC-OC-V5C" id="iAU-da-xlN">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -735,7 +735,7 @@ Times Square</string>
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZMM-gk-9e6" id="9nu-FI-bmv">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -1123,7 +1123,7 @@ It's in Settings -&gt; VC Load Delay.</string>
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vfa-9v-Vwf" id="ter-N8-ZtL">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -1332,33 +1332,110 @@ It's in Settings -&gt; VC Load Delay.</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="29h-N2-YGT">
-                                <rect key="frame" x="20" y="158" width="280" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grh-Qn-4cS">
+                                <rect key="frame" x="16" y="40" width="288" height="53"/>
+                                <string key="text">This app accompanies the book
+"High Performance iOS Apps"
+</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the second view controller — an instance of HPSecondViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DcM-Fx-MKR">
-                                <rect key="frame" x="20" y="240" width="280" height="88"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_cover.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4rv-gk-bdL">
+                                <rect key="frame" x="-90" y="109" width="500" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="9fN-Zf-E0i"/>
+                                    <constraint firstAttribute="height" constant="120" id="qGi-PL-i5C"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Print:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXh-m4-r6C">
+                                <rect key="frame" x="16" y="259" width="288" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="bI6-sD-1dO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Github (source): " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3C-ua-AQP">
+                                <rect key="frame" x="16" y="375" width="133" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="AS8-Gn-3uY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aE-Ce-Z3x">
+                                <rect key="frame" x="16" y="277" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0ca-5A-epV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="www.amazon.com/dp/149191100X"/>
+                                <connections>
+                                    <action selector="onPrintClicked:" destination="QUy-BD-bpt" eventType="touchUpInside" id="r7p-b7-ZHV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyF-So-1Nk">
+                                <rect key="frame" x="16" y="335" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="c5h-4r-azY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="www.amazon.com/dp/B01H7V9LGI"/>
+                                <connections>
+                                    <action selector="onKindleClicked:" destination="QUy-BD-bpt" eventType="touchUpInside" id="nLi-br-1Md"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgF-zf-lbl">
+                                <rect key="frame" x="16" y="393" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1hE-NS-PQP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="github.com/gvaish/hpios"/>
+                                <connections>
+                                    <action selector="onGithubClicked:" destination="QUy-BD-bpt" eventType="touchUpInside" id="7fO-Qc-wTh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kindle Edition:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnh-0B-VkF">
+                                <rect key="frame" x="16" y="317" width="288" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="pRd-il-19X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="29h-N2-YGT" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" symbolic="YES" id="4te-rk-9Fp"/>
-                            <constraint firstAttribute="trailing" secondItem="29h-N2-YGT" secondAttribute="trailing" constant="20" symbolic="YES" id="FIx-Zl-RBr"/>
-                            <constraint firstItem="DcM-Fx-MKR" firstAttribute="top" secondItem="29h-N2-YGT" secondAttribute="bottom" constant="40" id="Gb1-a9-eY8"/>
-                            <constraint firstAttribute="trailing" secondItem="DcM-Fx-MKR" secondAttribute="trailing" constant="20" symbolic="YES" id="XTh-ji-q0k"/>
-                            <constraint firstItem="DcM-Fx-MKR" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="20" symbolic="YES" id="l9f-S9-V20"/>
-                            <constraint firstAttribute="centerY" secondItem="DcM-Fx-MKR" secondAttribute="centerY" id="lHZ-e8-ii2"/>
+                            <constraint firstItem="4rv-gk-bdL" firstAttribute="top" secondItem="Grh-Qn-4cS" secondAttribute="bottom" constant="16" id="08R-NZ-wqT"/>
+                            <constraint firstItem="9aE-Ce-Z3x" firstAttribute="leading" secondItem="rXh-m4-r6C" secondAttribute="leading" id="30f-4f-qPw"/>
+                            <constraint firstItem="9aE-Ce-Z3x" firstAttribute="top" secondItem="rXh-m4-r6C" secondAttribute="bottom" constant="2" id="5Ec-ht-akt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rnh-0B-VkF" secondAttribute="trailing" id="5UA-TC-vEH"/>
+                            <constraint firstItem="4rv-gk-bdL" firstAttribute="centerX" secondItem="gMD-aP-Fq6" secondAttribute="centerX" id="8Ab-31-X0j"/>
+                            <constraint firstItem="Grh-Qn-4cS" firstAttribute="top" secondItem="FgS-U6-xeU" secondAttribute="bottom" constant="20" id="8SK-L7-XFs"/>
+                            <constraint firstItem="gyF-So-1Nk" firstAttribute="leading" secondItem="rnh-0B-VkF" secondAttribute="leading" id="8xM-ut-1UX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gyF-So-1Nk" secondAttribute="trailing" id="Gnk-Q0-CLa"/>
+                            <constraint firstItem="rnh-0B-VkF" firstAttribute="top" secondItem="9aE-Ce-Z3x" secondAttribute="bottom" constant="10" id="ITI-O2-tDb"/>
+                            <constraint firstItem="VgF-zf-lbl" firstAttribute="leading" secondItem="j3C-ua-AQP" secondAttribute="leading" id="NQN-1O-0fk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="j3C-ua-AQP" secondAttribute="trailing" constant="155" id="OBV-oH-vl0"/>
+                            <constraint firstItem="rnh-0B-VkF" firstAttribute="leading" secondItem="9aE-Ce-Z3x" secondAttribute="leading" id="Ors-Fp-mnb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VgF-zf-lbl" secondAttribute="trailing" id="TQL-pr-Aa0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Grh-Qn-4cS" secondAttribute="trailing" id="cVy-kJ-9Ps"/>
+                            <constraint firstItem="gyF-So-1Nk" firstAttribute="top" secondItem="rnh-0B-VkF" secondAttribute="bottom" constant="2" id="dXq-AL-suk"/>
+                            <constraint firstItem="rXh-m4-r6C" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leadingMargin" id="egL-1R-guU"/>
+                            <constraint firstItem="VgF-zf-lbl" firstAttribute="top" secondItem="j3C-ua-AQP" secondAttribute="bottom" constant="2" id="gC0-ke-qaU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9aE-Ce-Z3x" secondAttribute="trailing" id="gpD-gz-qO7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rXh-m4-r6C" secondAttribute="trailing" id="hZO-zZ-VJT"/>
+                            <constraint firstItem="j3C-ua-AQP" firstAttribute="leading" secondItem="gyF-So-1Nk" secondAttribute="leading" id="oPI-rd-itS"/>
+                            <constraint firstItem="Grh-Qn-4cS" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leadingMargin" id="oRT-k7-AGj"/>
+                            <constraint firstItem="rXh-m4-r6C" firstAttribute="top" secondItem="4rv-gk-bdL" secondAttribute="bottom" constant="30" id="uQQ-SF-XXQ"/>
+                            <constraint firstItem="j3C-ua-AQP" firstAttribute="top" secondItem="gyF-So-1Nk" secondAttribute="bottom" constant="10" id="yKy-ZV-IUC"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="Z7h-1E-pvt"/>
+                    <tabBarItem key="tabBarItem" title="About" image="bolt" id="Z7h-1E-pvt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
@@ -1408,9 +1485,9 @@ It's in Settings -&gt; VC Load Delay.</string>
                     </tabBar>
                     <connections>
                         <segue destination="KBX-YK-3gm" kind="relationship" relationship="viewControllers" id="MY8-Up-jds"/>
-                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
                         <segue destination="ATI-g7-Pgd" kind="relationship" relationship="viewControllers" id="Pg2-8f-HB9"/>
                         <segue destination="avw-Eh-f4S" kind="relationship" relationship="viewControllers" id="5KM-GH-5wk"/>
+                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
@@ -1481,7 +1558,8 @@ It's in Settings -&gt; VC Load Delay.</string>
     </scenes>
     <resources>
         <image name="HighPerf" width="100" height="100"/>
+        <image name="bolt" width="30" height="30"/>
+        <image name="book_cover.jpg" width="500" height="656"/>
         <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
     </resources>
 </document>

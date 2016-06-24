@@ -65,6 +65,7 @@
 		8B5813071D1449200046D3AD /* hi-perf-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5813041D14491F0046D3AD /* hi-perf-80.png */; };
 		8B5813081D1449200046D3AD /* hi-perf-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5813051D14491F0046D3AD /* hi-perf-120.png */; };
 		8B5B25F91A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B25F81A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.m */; };
+		8B601ABD1D1DDA3700710CCA /* book_cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B601ABC1D1DDA3700710CCA /* book_cover.jpg */; };
 		8B60D1E91A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B60D1E81A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.m */; };
 		8B6B942E1AD0E12000697DBD /* HPPhotoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6B942D1AD0E12000697DBD /* HPPhotoTest.m */; };
 		8B6D0A001B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D09FF1B23E3CD00CE0F4D /* HPChapter17Tools_03LeaksViewController.m */; };
@@ -278,6 +279,7 @@
 		8B5813051D14491F0046D3AD /* hi-perf-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hi-perf-120.png"; sourceTree = "<group>"; };
 		8B5B25F71A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter08_03InteractiveNotificationViewController.h; sourceTree = "<group>"; };
 		8B5B25F81A99BE1800FA7DE0 /* HPChapter08_03InteractiveNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter08_03InteractiveNotificationViewController.m; sourceTree = "<group>"; };
+		8B601ABC1D1DDA3700710CCA /* book_cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book_cover.jpg; sourceTree = "<group>"; };
 		8B60D1E71A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPChapter08_02_Views_15SizeClassesViewController.h; sourceTree = "<group>"; };
 		8B60D1E81A96E21C00316F08 /* HPChapter08_02_Views_15SizeClassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPChapter08_02_Views_15SizeClassesViewController.m; sourceTree = "<group>"; };
 		8B6B942D1AD0E12000697DBD /* HPPhotoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPPhotoTest.m; sourceTree = "<group>"; };
@@ -716,6 +718,7 @@
 		8B530C0C19A1373700F97DE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B601ABC1D1DDA3700710CCA /* book_cover.jpg */,
 				8B5813031D14491F0046D3AD /* hi-perf-58.png */,
 				8B5813041D14491F0046D3AD /* hi-perf-80.png */,
 				8B5813051D14491F0046D3AD /* hi-perf-120.png */,
@@ -1100,6 +1103,7 @@
 				8B530C1019A1373700F97DE9 /* InfoPlist.strings in Resources */,
 				8B39C06C19A906E200BB8F27 /* bolt.png in Resources */,
 				8BEFB6271ABDEEE4001CDF45 /* HPConfigurationItemViewController.xib in Resources */,
+				8B601ABD1D1DDA3700710CCA /* book_cover.jpg in Resources */,
 				8BEFB58E1ABBD4A6001CDF45 /* HPShareActivityViewController.xib in Resources */,
 				8B5813061D14491F0046D3AD /* hi-perf-58.png in Resources */,
 				8B04DC021A9007DC00DF7158 /* HPChapter08_ChildViewController.xib in Resources */,

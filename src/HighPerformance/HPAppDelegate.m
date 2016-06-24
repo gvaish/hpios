@@ -64,17 +64,17 @@
 	home.image = [[UIImage imageNamed:@"home"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 	home.selectedImage = [[UIImage imageNamed:@"home_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 
-	UITabBarItem *bolt = [bar.items objectAtIndex:1];
-	bolt.image = [[UIImage imageNamed:@"bolt"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-	bolt.selectedImage = [[UIImage imageNamed:@"bolt_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-
-	UITabBarItem *debug = [bar.items objectAtIndex:2];
+	UITabBarItem *debug = [bar.items objectAtIndex:1];
 	debug.image = [[UIImage imageNamed:@"debug"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 	debug.selectedImage = [[UIImage imageNamed:@"debug_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 
-	UITabBarItem *settings = [bar.items objectAtIndex:3];
+	UITabBarItem *settings = [bar.items objectAtIndex:2];
 	settings.image = [[UIImage imageNamed:@"settings"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 	settings.selectedImage = [[UIImage imageNamed:@"settings_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+
+	UITabBarItem *bolt = [bar.items objectAtIndex:3];
+	bolt.image = [[UIImage imageNamed:@"bolt"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+	bolt.selectedImage = [[UIImage imageNamed:@"bolt_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 
 	CFAbsoluteTime currentTime = CFAbsoluteTimeGetCurrent();
 	CFTimeInterval timeTaken = currentTime - startTime;

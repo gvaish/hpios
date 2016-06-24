@@ -23,7 +23,7 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-	[HPInstrumentation logEvent:@"SV_Appear"];
+	[HPInstrumentation logEvent:@"SV_Appear_About"];
 	[super viewDidAppear:animated];
 }
 
@@ -31,6 +31,21 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)onPrintClicked:(id)sender {
+    [HPInstrumentation logEvent:@"Open_URL_Print"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://amzn.to/24NEg9f"]];
+}
+
+-(IBAction)onKindleClicked:(id)sender {
+    [HPInstrumentation logEvent:@"Open_URL_Kindle"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://amzn.to/28Yl9He"]];
+}
+
+-(IBAction)onGithubClicked:(id)sender {
+    [HPInstrumentation logEvent:@"Open_URL_Github"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://bit.ly/29619jR"]];
 }
 
 @end
