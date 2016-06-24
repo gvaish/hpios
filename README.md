@@ -6,6 +6,20 @@ This repository contains the code for the app accompanying the book - High Perfo
 
 Use [Issues](https://github.com/gvaish/high-performance-ios-apps/issues)
 
+
+### Building the app
+
+You will need Cocoapods 1.0.0 or later to install the dependencies.
+
+```
+$ git clone https://github.com/gvaish/high-performance-ios-apps.git
+$ cd high-performance-ios-apps/src
+$ pod install
+$ open HighPerformance.xcworkspace
+```
+
+Enjoy!
+
 ### Related Links
 
 * iTunes App Store: http://apple.co/28WvC7N
